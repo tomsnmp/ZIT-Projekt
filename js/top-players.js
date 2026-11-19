@@ -2,7 +2,7 @@
 
 const clientID = 75410
 const clientSecret = "O1QHdnVS8hYr2EjUq77EQMcFlaJokggDYgC7CiyU";
-//const proxyKey = "a55740f4";
+const proxyKey = "a55740f4";
 
 async function getTop(mod) {
     const tokenUrl = "https://corsproxy.io/?key=" + proxyKey +"&url=" + encodeURIComponent("https://osu.ppy.sh/oauth/token");
